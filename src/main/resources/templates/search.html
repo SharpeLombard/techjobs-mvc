@@ -36,7 +36,11 @@
 
     <hr />
 
-    <!-- TODO #2 - Loop over jobs map to display all job fields -->
+    <!-- TODO #2 - Done (RSL added next 3 lines) - Loop over jobs map to display all job fields -->
+
+    <div th:if="${jobs}">
+        <div th:replace="fragments :: results"></div>
+    </div>
 
 </div>
 
